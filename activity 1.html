@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<p id="search_result">Search result</p>
+<p id ="repalace_result">Replace result</p>
+<p id ="sring_result">String result</p>
+
+<script>
+    var str = "Hello World!how are you?today"; 
+    
+    var search_position = str.search("World");
+    var txt = str.replace("World", "Earth");
+    var x = 70;
+    var y = 30;
+    document.getElementById("search_result").innerHTML = search_position;
+    document.getElementById("repalace_result").innerHTML = txt;
+    document.getElementById("sring_result").innerHTML = String (x) +  + String (y);
+</script>
+</body>
+</html>
